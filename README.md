@@ -2,11 +2,17 @@
 
 A component that creates a container which is resizeable.
 
+Preview: https://svizer.vercel.app/
+
+---
+
 Install:
 
 ```bash
 npm i svizer
 ```
+
+---
 
 Usage:
 
