@@ -1,14 +1,17 @@
 {
   "name": "svizer",
-  "version": "0.0.2",
+  "license": "MIT",
+  "version": "0.0.3",
   "decription": "A component that creates a container which is resizeable.",
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "svelte": "dist/index.js",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "svelte": "./dist/index.js"
+    "./Svizer.svelte": {
+      "svelte": "./dist/Svizer.svelte"
     }
   },
   "scripts": {
