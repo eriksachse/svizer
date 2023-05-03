@@ -62,6 +62,12 @@
     topLeft.direction = "northwest";
     topLeft.classList.add("svizer-grabber");
     topLeft.classList.add("svizer-top-left");
+    const buttonTopLeft = document.createElement("div");
+    buttonTopLeft.classList.add("svizer-button");
+    buttonTopLeft.style.width = "100%";
+    buttonTopLeft.style.height = handlewidth + "px";
+    buttonTopLeft.style.background = showcorner ? handlecolor : "transparent";
+    topLeft.appendChild(buttonTopLeft);
 
     const topRight = document.createElement("div");
     topRight.direction = "northeast";

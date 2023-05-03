@@ -33,3 +33,12 @@ Usage:
   handlewidth={3}>Test text
 </Svizer>
 ```
+
+---
+
+Roadmap:
+
+- Add min max width height
+- Disable overdrag from left to right / top to bottom
+- Option to drag the entire container
+- Shift click resizes keeping aspect ratio
